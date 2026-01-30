@@ -4016,7 +4016,7 @@ function Library:CreateWindow(WindowInfo)
             Image = "rbxassetid://82052229783095",
             ImageTransparency = 0.92,
             Position = UDim2.fromScale(0.15, 0.5),
-            Size = UDim2.fromScale(0.25, 0.25),
+            Size = UDim2.fromScale(0.35, 0.35),
             ScaleType = Enum.ScaleType.Fit,
             ZIndex = 1,
             Parent = MainFrame,
