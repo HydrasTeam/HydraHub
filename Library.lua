@@ -3738,6 +3738,11 @@ function Library:SetNotifySide(Side: string)
     end
 end
 
+function Library:SetWatermarkVisibility(Visible: boolean)
+    -- Placeholder function for watermark compatibility
+    -- Can be extended if watermark feature is added
+end
+
 function Library:Notify(...)
     local Data = {}
     local Info = select(1, ...)
