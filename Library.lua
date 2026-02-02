@@ -72,10 +72,10 @@ local Library = {
 
     IsLightTheme = false,
     Scheme = {
-        BackgroundColor = Color3.fromRGB(10, 20, 10),
-        MainColor = Color3.fromRGB(15, 30, 15),
-        AccentColor = Color3.fromRGB(0, 200, 0),
-        OutlineColor = Color3.fromRGB(0, 100, 0),
+        BackgroundColor = Color3.fromRGB(10, 15, 30),
+        MainColor = Color3.fromRGB(15, 25, 50),
+        AccentColor = Color3.fromRGB(0, 102, 255),
+        OutlineColor = Color3.fromRGB(0, 60, 150),
         FontColor = Color3.new(1, 1, 1),
         Font = Font.fromEnum(Enum.Font.Code),
 
@@ -554,7 +554,7 @@ local function ParentUI(UI: Instance)
 end
 
 local ScreenGui = New("ScreenGui", {
-    Name = "Obsidian",
+    Name = "Leviathan",
     DisplayOrder = 999,
     ResetOnSpawn = false,
 })
