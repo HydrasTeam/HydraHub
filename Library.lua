@@ -4014,14 +4014,14 @@ function Library:CreateWindow(WindowInfo)
             Parent = MainFrame,
         })
         
-        -- Hydra Logo Background on MainFrame
+        -- Leviathan Logo Background on MainFrame
         New("ImageLabel", {
             AnchorPoint = Vector2.new(0.5, 0.5),
             BackgroundTransparency = 1,
-            Image = "rbxassetid://82052229783095",
-            ImageTransparency = 0.92,
+            Image = "rbxassetid://87773615539074",
+            ImageTransparency = 0.88,
             Position = UDim2.fromScale(0.15, 0.5),
-            Size = UDim2.fromScale(0.35, 0.35),
+            Size = UDim2.fromScale(0.45, 0.45),
             ScaleType = Enum.ScaleType.Fit,
             ZIndex = 1,
             Parent = MainFrame,
@@ -4242,14 +4242,14 @@ function Library:CreateWindow(WindowInfo)
             Parent = MainFrame,
         })
         
-        -- Hydra Logo Background on Container
+        -- Leviathan Logo Background on Container
         New("ImageLabel", {
             AnchorPoint = Vector2.new(0.5, 0.5),
             BackgroundTransparency = 1,
-            Image = "rbxassetid://82052229783095",
-            ImageTransparency = 0.92,
+            Image = "rbxassetid://87773615539074",
+            ImageTransparency = 0.88,
             Position = UDim2.fromScale(0.5, 0.5),
-            Size = UDim2.fromScale(0.6, 0.6),
+            Size = UDim2.fromScale(0.7, 0.7),
             ScaleType = Enum.ScaleType.Fit,
             ZIndex = 1,
             Parent = Container,
